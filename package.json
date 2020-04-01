@@ -1,10 +1,10 @@
 {
-	"name": "vue-mfe",
+	"name": "vue-mfe-cli",
 	"version": "1.0.0",
 	"description": "a micro frontend project, base of vue",
 	"main": "index.js",
 	"bin": {
-		"vue-mfe": "./bin/create.js"
+		"vue-mfe-cli": "./bin/create.js"
 	},
 	"scripts": {
 		"test": "node bin/create"
