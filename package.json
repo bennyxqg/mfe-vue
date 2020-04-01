@@ -1,0 +1,35 @@
+{
+	"name": "vue-mfe",
+	"version": "1.0.0",
+	"description": "a micro frontend project, base of vue",
+	"main": "index.js",
+	"bin": {
+		"vue-mfe": "./bin/create.js"
+	},
+	"scripts": {
+		"test": "node bin/create"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+		"vue",
+		"mfe",
+    	"react"
+    ],
+	"files": [
+		"bin",
+		"templates"
+	],
+	"author": "benny",
+	"license": "ISC",
+	"devDependencies": {},
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"fs-extra": "^8.1.0",
+		"inquirer": "^7.1.0",
+		"npm-run-all": "^4.1.5",
+		"rimraf": "^3.0.2"
+	}
+}
